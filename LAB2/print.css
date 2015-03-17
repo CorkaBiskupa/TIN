@@ -1,0 +1,18 @@
+@import 'all.css';
+
+ul.navbar { 
+	display: none; 
+	}
+	
+img { 
+	display: none; 
+	}
+	
+h1, p { 
+	font-family: "Times New Roman", "Times", "serif"; 
+	}
+	
+#printing {
+    display : block;
+	}
+

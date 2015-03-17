@@ -1,0 +1,16 @@
+ul.books li {
+	list-style-type:upper-roman;
+	}
+ footer {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted 
+    }
+    
+   tytul {
+   font-style: italic;
+   }
+   
+   author {
+   text-transform: uppercase; 
+   }
