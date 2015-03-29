@@ -1,0 +1,24 @@
+ul {
+ list-style-type: none;
+ 
+}
+
+.icon {
+left: -19px;
+height: 19px;
+width: 18px;
+position: relative;
+background-image: url('icons.png');
+bottom: -21px;
+}
+.open .icon {
+background-position: 0 -14px;
+}
+
+.closed .icon {
+background-position: 0 0;
+}
+
+.leaf .icon {
+background-position: 0 -31px;
+}

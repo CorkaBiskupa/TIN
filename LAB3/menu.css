@@ -1,0 +1,47 @@
+body {
+background-color: #F6F4F4;
+}
+
+.clickable {
+cursor: pointer;
+top: 200px;
+}
+
+.clickable:hover{
+background-color: yellow;
+}
+
+.double:hover{
+background-color: FCFCFC;
+}
+.selected:hover
+{
+background-color: FCFCFC;
+}
+li.double{
+height: 75px;
+}
+
+.double.ul {
+height: 160px;
+}
+
+li {
+	padding-bottom: 0px;
+	text-align: center;
+	display: inline-block;
+	list-style: none;
+	border: 2px solid black;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-style: hidden;
+	vertical-align: middle;
+	background-color: lightgray;
+	overflow: hidden;
+      }
+      
+ul {
+border-bottom-style: hidden;
+padding:5px;
+padding-bottom: 0px;
+}
