@@ -4,7 +4,7 @@ background-color: #F6F4F4;
 
 .clickable {
 cursor: pointer;
-position: relative;
+top: 200px;
 }
 
 .clickable:hover{
@@ -38,10 +38,24 @@ li {
 	vertical-align: middle;
 	background-color: lightgray;
 	overflow: hidden;
+	flex-flow: row wrap;
       }
       
 ul {
 border-bottom-style: hidden;
 padding:5px;
 padding-bottom: 0px;
+flex-flow: row wrap;
+}
+
+.clickable.single{
+position: relative;
+top: 14px;
+}
+
+.double{
+position: relative;
+}
+.double>ul>li {
+top: 15px;
 }

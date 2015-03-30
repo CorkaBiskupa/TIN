@@ -3,18 +3,17 @@ ul {
  
 }
 
-li.open {
-	
-	
-}
-
 .icon {
-	 left: -19px;
+left: -19px;
 height: 19px;
 width: 18px;
 position: relative;
 background-image: url('icons.png');
 bottom: -21px;
+}
+icon:hover
+{
+ cursor: pointer;
 }
 .open .icon {
 background-position: 0 -14px;
