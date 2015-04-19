@@ -1,0 +1,86 @@
+@back-color: pink;
+.bolded {
+	font-weight: bold;
+	
+}
+body 
+{
+	background-color: @back-color;
+}
+
+header 
+{
+	text-align: -webkit-center;
+}
+h1 {
+	.bolded;
+}
+#left {
+	width: 20%;
+	float: left;
+	 background-color: lighten(@back-color, 5%);
+}
+nav ul li {
+  padding: 10px 90px 10px 90px;
+  background-image: url('images/bg_nav.png');
+  background-size: contain;
+  @media (max-width:800px){
+	  padding: 10px;
+  	background-image: url(images/bg_nav.png);
+  background-size: cover;
+	}
+  &:hover{
+  	background-image: url('images/bg_nav_h.png');
+  background-size: contain;
+  }
+  a {
+  color:white;
+  }
+}
+
+
+
+
+footer {
+  text-align: -webkit-center;
+  position: initial;
+  display: none;
+}
+#main {
+  width: 59%;
+  margin-left: 20%;
+  position: absolute;
+  background-color: lighten(@back-color, 20%);
+}
+	
+#important {
+  float: right;
+   background-color: lighten(@back-color, 5%);
+}
+a {
+color: black;
+}
+#important ul {
+ list-style-image: url('images/bullet.png');
+ display: block;
+}
+
+li {
+list-style-type: none;
+}
+
+ul {
+display: -webkit-inline-box;
+	@media (max-width:600px){
+	display: inline-block;
+	}
+}
+
+#main, #important, #left {
+	@media (max-width:800px){
+	position: inherit;
+	}
+	@media (max-width:600px){
+	position: inherit;
+	}
+}
