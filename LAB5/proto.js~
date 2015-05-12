@@ -1,0 +1,24 @@
+function String(name) 
+{
+		this.name = name;
+
+}
+
+String.prototype.deogonkify = function () {
+
+		this.name = this.name.replace("ą", "a");
+		this.name = this.name.replace('ę', 'e');
+		this.name = this.name.replace('ł', 'l');
+		this.name = this.name.replace('ż', 'z');
+		this.name = this.name.replace('ś', 's');
+		this.name = this.name.replace('ć', 'c');
+		this.name = this.name.replace('ń', 'n');
+		return this.name;
+}
+
+var test = new String("Zażółć gęślą jaźń");
+
+
+      console.log(test.deogonkify());
+
+
